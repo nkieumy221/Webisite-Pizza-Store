@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+html,body{
+	width: 100%;
+	height: 100%;
+	font-family: 'Muli';
+	background-image: url(http://cdn23.us1.fansshare.com/photos/background/background-black-art-backgrounds-black-739766735.jpg);
+
+}
+.pacifico{
+	font-family: 'Pacifico';
+	color: #FEBD29;
+}
+a{
+	color: white;
+}
+/*header*/
+.head1 i{
+	color: white;
+}
+.head2{
+	margin-top: 30px;
+	position: absolute;
+}
+.head2 li a{
+	color: black;
+	font-size: 22px;
+	font-weight: bold;
+}
+.head2 li{
+	padding-left: 20px;
+}
+.nav2{
+	margin-left: 200px;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-menu{
+	display: none;
+	position: absolute;
+	background: #FEBD29;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.8);
+	padding:12px 16px;
+	z-index: -1;
+}
+.dropdown-menu li a{
+	font-size: 14px;
+}
+.dropdown-menu li a:hover{
+	color: white;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+}
+.m1{
+	background-color: black;
+	color: red;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: initial;
+}
+.img-fluid{
+	width: 100%;
+	height: auto;
+}
+.col-sm-5 img{
+	height: 200px;
+}
+.card{
+	padding: 20px;
+	margin-bottom: 20px;
+	height: 300px;
+}
+.card-title{
+	color: rgb(212, 162, 111);
+}
+.card-text{
+	color: white;
+}
+.foot{
+	background-image: url(https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/91514511_566011074011130_4798577513108340736_n.png?_nc_cat=104&_nc_sid=b96e70&_nc_ohc=Y_0CgcM7X-YAX9BmTFU&_nc_ht=scontent.fdad1-1.fna&oh=7dc6909b0600705f31060a6de0fdeb08&oe=5F2214E6);
+	margin-top: 80px;
+	color: white;
+	text-align: center;
+}
+ul li{
+	list-style-type: none;
+}
+/*zalo*/
+.livechat{
+	position: absolute;
+	right: 50px;
+	bottom: 50px;
+}
